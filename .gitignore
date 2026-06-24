@@ -27,3 +27,8 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+example/.dart_tool/
+example/build/
+example/pubspec.lock
+example/.flutter-plugins
+example/.flutter-plugins-dependencies
