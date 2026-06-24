@@ -89,7 +89,7 @@ await client.startAgent();
 
 // Source: outbound tunnel
 final session = await client.connect(
-  'idrto:example.com/server/22',
+  'idrto:server~example.com/22',
   options: IdrConnectOptions(localPort: 2222),
 );
 
