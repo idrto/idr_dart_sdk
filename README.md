@@ -1,6 +1,6 @@
 # idr_dart_sdk
 
-Pure **Dart** package (no Flutter SDK dependency) for embedding the [idr.to](https://idr.to) agent via FFI to `libidr_sdk` (Rust [`idr-ffi`](https://github.com/idrto/client/tree/main/crates/idr-ffi)).
+Pure **Dart** package (no Flutter SDK dependency) for embedding the [idr.to](https://idr.to) agent via FFI to `libidr_sdk` (Rust [`idr-ffi`](https://github.com/idrto/idr_agent/tree/main/crates/idr-ffi)).
 
 [![pub package](https://img.shields.io/pub/v/idr_dart_sdk.svg)](https://pub.dev/packages/idr_dart_sdk)
 
@@ -33,10 +33,10 @@ dependencies:
 
 ## Native library
 
-This package is FFI bindings only. Build `libidr_sdk` from the [idr.to client](https://github.com/idrto/client) repo:
+This package is FFI bindings only. Build `libidr_sdk` from the [idr.to client](https://github.com/idrto/idr_agent) repo:
 
 ```bash
-git clone https://github.com/idrto/client
+git clone https://github.com/idrto/idr_agent
 cd client
 cargo build --release -p idr-ffi
 ```
@@ -118,7 +118,7 @@ flutter run
 | `startAgent()` / `stopAgent()` | `idr agent run` |
 | `connect()` | `idr connect` |
 
-Full matrix: [client docs/SDK.md](https://github.com/idrto/client/blob/main/docs/SDK.md).
+Full matrix: [client docs/SDK.md](https://github.com/idrto/idr_agent/blob/main/docs/SDK.md).
 
 ## Development
 
