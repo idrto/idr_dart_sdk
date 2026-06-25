@@ -21,7 +21,7 @@
 - **MINOR**: new `IdrClient` methods matching `idr-ffi` releases
 - **PATCH**: docs, fixes, no API change
 
-Coordinate with [idrto/idr_agent](https://github.com/idrto/idr_agent) `idr-ffi` releases — document required `libidr_sdk` version in CHANGELOG.
+Coordinate with [idrto/agent](https://github.com/idrto/agent) `idr-ffi` releases — document required `libidr_sdk` version in CHANGELOG.
 
 ## Consumers
 

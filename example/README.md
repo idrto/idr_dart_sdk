@@ -17,7 +17,7 @@ dependencies:
 ## Prerequisites
 
 1. Flutter 3.19+
-2. Built `libidr_sdk` from [idrto/idr_agent](https://github.com/idrto/idr_agent):
+2. Built `libidr_sdk` from [idrto/agent](https://github.com/idrto/agent):
 
 ```bash
 cargo build --release -p idr-ffi
